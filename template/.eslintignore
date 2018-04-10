@@ -1,0 +1,9 @@
+/build/
+/config/
+/dist/
+/*.js
+/src/utils/reg.js
+/static/flexible.js
+{{#unit}}
+/test/unit/coverage/
+{{/unit}}

@@ -1,0 +1,93 @@
+@import "mixin";
+.mt-4 {
+  margin-top: 4px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+.mt-10 {
+  margin-top: pxtorem(10px);
+}
+
+.mt-12 {
+  margin-top: pxtorem(12px);
+}
+
+.mt-15 {
+  margin-top: pxtorem(15px);
+}
+
+.mt-16 {
+  margin-top: pxtorem(16px);
+}
+
+.mt-18 {
+  margin-top: pxtorem(18px);
+}
+
+.mt-20 {
+  margin-top: pxtorem(20px);
+}
+
+.mt-28 {
+  margin-top: pxtorem(28px);
+}
+
+.mt-40 {
+  margin-top: pxtorem(40px);
+}
+
+.mt-48 {
+  margin-top: pxtorem(28px);
+}
+
+.mt-64 {
+  margin-top: pxtorem(64px);
+}
+
+.ml-5 {
+  margin-left: pxtorem(5px);
+}
+
+.ml-10 {
+  margin-left: pxtorem(10px);
+}
+
+.ml-15 {
+  margin-left: pxtorem(15px);
+}
+
+.ml-20 {
+  margin-left: pxtorem(20px);
+}
+
+.mr-5 {
+  margin-right: pxtorem(5px);
+}
+
+.mr-10 {
+  margin-right: pxtorem(10px);
+}
+
+.mr-15 {
+  margin-right: pxtorem(15px);
+}
+
+.mr-20 {
+  margin-right: pxtorem(20px);
+}
+
+.pl-20 {
+  padding-left: pxtorem(20px);
+}
+
+.pr-20 {
+  padding-right: pxtorem(20px);
+}
+
