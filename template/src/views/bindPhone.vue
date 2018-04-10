@@ -19,7 +19,7 @@
           <span v-show="canGetVerificationCode">
             获取验证码
           </span>
-          <span v-show="!canGetVerificationCode">\{{`${countdown}秒`}}</span>
+          <span v-show="!canGetVerificationCode">{{`${countdown}秒`}}</span>
         </span>
       </div>
       <div class="mt-10">
