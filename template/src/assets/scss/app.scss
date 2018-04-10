@@ -1,0 +1,121 @@
+@import "reset";
+@import "color";
+@import "mixin";
+@import "margin";
+/*
+  页面公共样式
+*/
+
+@font-face {
+  font-family: 'iconfont';
+  /* project id 538453 */
+  src: url('//at.alicdn.com/t/font_538453_u997l62683xzjjor.eot');
+  src: url('//at.alicdn.com/t/font_538453_u997l62683xzjjor.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_538453_u997l62683xzjjor.woff') format('woff'), url('//at.alicdn.com/t/font_538453_u997l62683xzjjor.ttf') format('truetype'), url('//at.alicdn.com/t/font_538453_u997l62683xzjjor.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: $bgMainColor;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-hw {
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.flex-verticle {
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.reback-link {
+  display: block;
+  width: pxtorem(44px);
+  text-align: center;
+  i {
+    @include font-style(16px,
+    $fontColorDisable,
+    60px);
+  }
+}
+
+.picker-item.picker-selected {
+  color: $fontColorGreen !important;
+}
+
+.mint-datetime-action {
+  color: $fontColorGreen !important;
+}
+
+.title-name {
+  text-align: center;
+  @include font-style(17px,
+  $fontColorDisable,
+  60px);
+  font-weight: bold;
+}
+
+.left-name {
+  text-align: left;
+  padding-left: pxtorem(15px);
+  font-weight: normal;
+}
+
+.opera-link {
+  display: block;
+  width: pxtorem(44px);
+  text-align: center;
+  @include font-style(17px,
+  $fontColorSubTitle,
+  60px);
+}
+
+
+/* 小图片默认背景色 */
+.small-bg-color {
+  background: $bgColorImgBg;
+}
+
+span.swiper-pagination-bullet {
+  width: pxtorem(12px);
+  height: pxtorem(3px);
+  opacity: 0.4;
+  background: $bgColorWhite;
+  display: inline-block;
+  margin-right: pxtorem(5px);
+  @include rounded(2px);
+  &::last-child {
+    margin-right: 0;
+  }
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.fill-input .ms-input__inner {
+  font-size: pxtorem(17px) !important;
+}
