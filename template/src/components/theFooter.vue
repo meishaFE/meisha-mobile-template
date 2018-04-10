@@ -5,11 +5,11 @@
           <div slot="icon"
               class="normal-div index-icon"></div>
           首页</ms-tab-item>
-      <ms-tab-item value="courseList">
+      <ms-tab-item value="page1">
           <div slot="icon"
               class="normal-div course-icon"></div>
           课程</ms-tab-item>
-      <ms-tab-item value="personalCenter">
+      <ms-tab-item value="page2">
         <div slot="icon"
               class="normal-div mine-icon"></div>
         我的
