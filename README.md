@@ -2,7 +2,7 @@
 
 ## 功能说明
 
-此模板是根据vue官方模板，结合ms-ui(梅沙科技移动端UI)编写的一套针对手机端系统的模板。此模板包含：eslint对js代码的编写约束；vuex及vue-router集成；fetch.js和类型检测等使用频率高的公共js方法及过滤器集成
+此模板是根据vue官方模板，结合ms-ui(梅沙科技移动端UI)编写的一套针对手机端系统的模板。此模板包含：eslint对js代码的编写约束；vuex及vue-router集成；fetch.js和类型检测等使用频率高的公共js方法及过滤器集成,default页面集成
 
 ## 安装及使用
 
