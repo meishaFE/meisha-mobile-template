@@ -29,8 +29,6 @@ window.$type = $type;
 window.$cookie = $cookie;
 window.CONFIG = CONFIG;
 window.$wechat = $wechat;
-window.$http = $http;
-window.$type = $type;
 window.MeishaWatch = MeishaWatch;
 
 // 梅沙监控，初始化后修改此处项目id和模块id
